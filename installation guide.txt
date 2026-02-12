@@ -1,0 +1,27 @@
+use python 3.12 create venv
+	"C:\Users\abel_\AppData\Local\Programs\Python\Python312\python.exe" -m venv ffclip
+
+activate the env
+	cd .\ffclip\Scripts
+	activate
+
+install git
+	https://git-scm.com/install/windows
+
+install dependenciesy
+	pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu126
+	pip install spyder numpy scipy pandas matplotlib sympy cython
+	pip install opencv-python albumentations timm tensorboard
+	pip install git+https://github.com/openai/CLIP.git
+
+
+
+
+
+
+FAQ
+"C:\Users\abel_\Desktop\Deep_learning\research\SOTA\FF-ViT\ffvit\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.
+	check cuda version installed and used
+	change the cuda path
+	echo=%CUDA_PATH%
+	
