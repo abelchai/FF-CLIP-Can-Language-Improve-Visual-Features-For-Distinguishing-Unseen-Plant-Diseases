@@ -8,7 +8,7 @@ This paper is accepted on International Conference on Pattern Recognition 2024 [
 Deep learning approaches have been pivotal in identifying multi-plant diseases, yet they often struggle with unseen data. The challenge of handling unseen data is significant due to the impracticality of collecting all disease samples for every plant species. This is attributed to the vast number of potential combinations between plant species and diseases, making capturing all such combinations in the field difficult. Recent approaches aim to tackle this issue by leveraging a zero-shot compositional setting. This involves extracting visual characteristics of plant species and diseases from the seen data in the training dataset and adapting them to unseen data. This paper introduces a novel approach by incorporating textual data to guide the vision model in learning the representation of multiple plants and diseases. To our knowledge, this is the first study to explore the effectiveness of a vision-language model in multi-plant disease identification, considering the fine-grained and challenging nature of disease textures. We experimentally prove that our proposed FF-CLIP model outperforms recent state-of-the-art models by 26.54% and 33.38% in Top-1 accuracy for unseen compositions, setting a solid baseline for zero-shot plant disease identification with the novel vision-language model.
 
 <p align="center">
-  <img src="figure/intro.png" alt="intro" width="800" height="400">
+  <img src="figure/intro.png" alt="intro" width="800" height="600">
 </p>
 
 ## Proposed model
