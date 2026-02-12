@@ -20,7 +20,9 @@ Feature Fusion Contrastive Language-Image Pre-training (FF-CLIP) model [[code]](
 </p>
 
 ## Results
-![Acc Results](figure/results.png)
+<p align="center">
+  <img src="figure/results.png" alt="results" width="800">
+</p>
 
 ## Dataset and pretrained weight
 
